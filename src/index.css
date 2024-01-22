@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  color: #ffffff;
+  background-color: #492E87;
+}
+
+.header{
+  padding-top: 20px;
+  font-size: 50px ;
+  margin-left: 10px;
+}
+
+.searchBar{
+  margin-top: 15px;
+  width: 300px;
+  height: 30px;
+  border-style: none;
+  border-radius: 8px;
+  background-color:#38236a;
+  color: #ffffff
+}
+
+.inputText{
+  width: 30%;
+  height: 150px;
+  margin-top: 15px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #38236a;
+  color: #ffffff;
+  resize: none;
+}
+
+.btn{
+  background-color: #C23373;
+  color: white;
+  border-style: none;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+
+::placeholder {
+  color: rgb(204, 204, 207);
+  padding-left: 10px; 
+} 
+
+.note-container {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.note-card {
+  width: 300px;
+  height: 270px;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #492E87;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  overflow:auto;
+  font-size: x-large;
+  color: #ffffff;
+}
+
+.color-options {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.color-option {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.color-option.selected {
+  border: 2px solid #ffffff;
+}
+
+.no-border {
+  outline: none;
+  border: none; 
+}
